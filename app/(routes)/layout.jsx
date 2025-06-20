@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         "@type": "Organization",
         "name": "Online Space"
       },
-      "image": "https://online-space.vercel.app/og-image.png",
+      "image": "https://online-space.vercel.app/os-image.jpg",
       "inLanguage": "en",
   }
   return (
@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         <meta name="googlebot" content="index, follow" />
 
         {/* X-Robots-Tag (redundant fallback via meta, better set via server headers if you can) */}
-        <meta http-equiv="X-Robots-Tag" content="index, follow" />
+        <meta httpEquiv="X-Robots-Tag" content="index, follow" />
 
         {/* Keywords (deprecated for ranking but still useful for niche search engines) */}
         <meta name="keywords" content="Online Space, 3D Web Experience, Next.js, Three.js, GSAP, Cosmic Simulation, Black Hole WebGL, Interactive Universe, WebXR, React Three Fiber" />
@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
         {/* Open Graph */}
         <meta property="og:title" content="Online Space – Explore 3D Worlds" />
         <meta property="og:description" content="Experience cosmic simulations like black holes, built using Next.js, Three.js, and GSAP." />
-        <meta property="og:image" content="https://online-space.vercel.app/og-image.png" />
+        <meta property="og:image" content="https://online-space.vercel.app/os-image.jpg" />
         <meta property="og:url" content="https://online-space.vercel.app/" />
         <meta property="og:type" content="website" />
 
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Online Space – Explore 3D Worlds" />
         <meta name="twitter:description" content="Black holes, stars, nebulas and more – in a real-time WebGL universe." />
-        <meta name="twitter:image" content="https://online-space.vercel.app/og-image.png" />
+        <meta name="twitter:image" content="https://online-space.vercel.app/os-image.jpg" />
       </head>
       <Script id="siteschema-init" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
